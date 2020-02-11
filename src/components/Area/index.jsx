@@ -1,9 +1,12 @@
 import React from "react";
+import "./index.css";
 
 const Area = ({ children, title }) => {
   return (
-    <section>
-      <h1>{title}</h1>
+    <section className="resume-container">
+      <div className="resume-title-wrapper">
+        <span className="resume-title">{title}</span>
+      </div>
       <div>{children}</div>
     </section>
   );

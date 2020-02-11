@@ -6,7 +6,7 @@ const Category = ({ title, contents }) => {
     return subContents.map((subContent, index) => {
       return (
         <section className="subContent" key={index}>
-          <p>{subContent}</p>
+          <span>{subContent}</span>
         </section>
       );
     });
