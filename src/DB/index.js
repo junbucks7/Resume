@@ -31,7 +31,7 @@ export const Tech = [
           contents: [
             {
               subTitle: "ES2015 이후의 JavaScript 문법에 익숙합니다.",
-              subContents: [">  JavaScript ES2015 이상의 문법을 수월하게 작성하거나 읽을 수 있습니다."]
+              subContents: ["> JavaScript ES2015 이상의 문법을 수월하게 작성하거나 읽을 수 있습니다."]
             }
           ]
         }
