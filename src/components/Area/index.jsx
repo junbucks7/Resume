@@ -1,14 +1,12 @@
 import React from "react";
-import "./index.css";
+import styles from "./style.module.scss";
 
 const Area = ({ children, title }) => {
   return (
-    <section className="resume-container">
-      <div className="resume-title-wrapper">
-        <span className="resume-title">{title}</span>
-      </div>
-      <div>{children}</div>
-    </section>
+    <div className={styles.area}>
+      <h1 className={styles.title}>{title}</h1>
+      <div className={styles.contents}>{children}</div>
+    </div>
   );
 };
 
